@@ -1,0 +1,17 @@
+{
+  "name": "content-mixer-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Content Mixer Pro",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "youtube-transcript": "^1.0.6"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
