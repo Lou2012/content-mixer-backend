@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "Backend API for Content Mixer Pro",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "vercel dev"
   },
   "dependencies": {
-    "axios": "^1.6.0",
-    "youtube-transcript": "^1.0.6"
+    "axios": "^1.6.2"
   },
   "engines": {
     "node": "18.x"
